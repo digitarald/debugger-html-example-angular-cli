@@ -1,0 +1,82 @@
+main {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #444;
+  text-align: center;
+}
+
+.view {
+  margin-bottom: 104px;
+}
+
+h1 {
+	font-size: 3rem;
+  font-weight: normal;
+  color: tomato;
+  margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+input {
+  display: block;
+  width: 200px;
+	margin: 0 auto 2rem;
+
+	outline: 0;
+	border: 0;
+  padding: .5em 0;
+	border-bottom: 1px solid #EEE;
+
+	font-size: 1rem;
+	color: #EEE;
+}
+
+::placeholder {
+  color: #AAA;
+}
+
+[type="submit"] {
+  color: white;
+  font-weight: 400;
+  padding: .5em 2em;
+  background: tomato;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .1s ease;
+}
+
+[type="submit"]:hover,
+[type="submit"]:focus {
+  background: lightsalmon;
+}
+
+[type="submit"]:hover:disabled {
+  background: tomato;
+  cursor: not-allowed;
+}
+
+input:focus {
+	border-color: tomato;
+	color: #444;
+}
+
+.history {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.arrow {
+  color: tomato;
+  font-style: normal;
+}
+
+footer {
+  font-style: italic;
+}

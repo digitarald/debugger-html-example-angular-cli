@@ -1,5 +1,7 @@
 # Example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/digitarald/debugger-html-example-angular-cli.svg)](https://greenkeeper.io/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
 ## Development server
